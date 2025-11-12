@@ -107,6 +107,8 @@ public class DataTypesSessions {
 		// mobile number, SSN, Aadhar card
 		// -- String only
 		String phone = "+16474564984";
+		String CC = "1221 1234 121121";
+		System.out.println(phone);
 		
 		
 		
