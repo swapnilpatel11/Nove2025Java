@@ -39,7 +39,35 @@ public class IncrementalDecrementalOperators {
 		int t = 10;
 		System.out.println(++t);
 		System.out.println(t);
-
+		
+		// 3. Post decrement --
+		int s = 2;
+		int e = s--;
+		System.out.println(s);
+		System.out.println(e);
+		
+		int r = -89;
+		int r1 = r--;
+		System.out.println(r);
+		System.out.println(r1);
+		
+		int totalAmount = 500;
+		System.out.println(totalAmount--);
+		System.out.println(totalAmount);
+		
+		//4. Pre(Before) Decrement --
+		int v = 2;
+		int v1 = --v;
+		System.out.println(v);
+		System.out.println(v1);
+		
+		int billing = -9000;
+		System.out.println(--billing);
+		System.out.println(billing);
+		
+		
+		
+		
 	}
 
 }
