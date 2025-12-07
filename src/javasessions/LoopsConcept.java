@@ -120,7 +120,7 @@ public class LoopsConcept {
 		// 4. Zomato/instagram/linkedin: infinite scrolling
 		// 5. Carousel
 		// 6. webtable with pagination
-		// 7. database data: 
+		// 7. database data:
 
 		// Use cases of for loop:
 		// when number of iterations are fixed.. use for loop:
@@ -128,6 +128,41 @@ public class LoopsConcept {
 		// month dropdown: jan to dec: 1 to 12
 		// day : 1 to 31
 		// category dropdown: 1 to 5
+		System.out.println("-------do-while-------");
+
+		// 3. do-while loop:
+
+		int p = 1;
+		do {
+			System.out.println(p);
+			p++;
+		} while (p <= 10);
+
+		System.out.println("--------------");
+
+		do {
+			System.out.println("Welcome to SP Academy");
+			break;
+		} while (true);
+
+		// example with while and do while to see difference
+		int r1 = 1;
+		while (r1 >= 10) {
+			System.out.println("Hello");
+			r1++;
+		}
+
+		//
+
+		int p1 = 1;
+		do {
+			System.out.println("Hello");
+			p1++;
+		} while (p1 >= 10);
+
+		// Use case of do-while:
+		// element is present on the page already..no need to wait for the element
+		// if element is not present then only start the wait using loop:
 
 	}
 
